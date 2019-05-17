@@ -1,14 +1,22 @@
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+}
+
 /* sélecteur simple
 header {
   font-size: 2em;
-}
-*/
+}*/
 
-/* sélecteur multiple
+
+/* sélecteur multiple*/
 header, footer {
   color: orange;
 }
-*/
+
 
 /* propriétés combinées
 header {
@@ -20,11 +28,11 @@ header {
 input[type="submit"] {
   color: pink;
 }
-
+*/
 input[type^="te"] {
   color: green;
 }
-*/
+
 
 /* pseudo - hover
 form:hover {
