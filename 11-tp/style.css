@@ -1,0 +1,33 @@
+main {
+    width: 200px;
+    background-color:blue;
+    color: white;
+    height: 200px;
+    /* transition: <property> <duration> <timing-function> <delay>;*/
+    /* https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Transitions/Utiliser_transitions_CSS */
+    
+    transition: 5s;
+  }
+  
+  main:hover {
+    height: 100px;
+    
+  }
+
+  
+
+  @-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+        
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+        
+    }
+}
+
+.rotating {
+    -webkit-animation: rotating 5s linear infinite;
+    
+}
